@@ -9,7 +9,7 @@ To install and run File Manager, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone 
+   git clone https://github.com/SharonAliyas5573/fm-cli.git
 
 2. Change to the project directory:
     ```shell
