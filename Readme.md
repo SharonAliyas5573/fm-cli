@@ -3,6 +3,48 @@
 __File Manager (fm)__ is a command-line tool for managing files and directories. It provides functionality such as copying, moving, renaming, and removing files and directories.
 
 ## __Installation__
+### __Installation instructions for Go__
+__Windows__
+
+1. Download the latest stable version of Go for Windows from the official Go website at https://golang.org/dl/.
+2. Run the downloaded installer and follow the prompts to complete the installation.
+3. Open a command prompt or PowerShell window.
+4. Type __go version__ to verify that Go is installed correctly.
+
+__Ubuntu__
+
+1. Open a terminal window.
+2. Update the package list by running 
+   ```shell
+   sudo apt update
+3. Install Go by running .
+   ```shell
+   sudo apt install golang
+4. Verify the installation by typing go version in the terminal.
+
+__Arch Linux__
+
+1. Open a terminal window.
+2. Update the package list by running 
+   ```shell
+   sudo pacman -Syu.
+3. Install Go by running 
+    ```shell
+    sudo pacman -S go.
+4. Verify the installation by typing 
+   ```shell
+   go version
+
+__macOS__
+
+1. Open a terminal window.
+2. Install Homebrew (a package manager for macOS) by following the instructions at https://brew.sh/.
+3. Run 
+   ```shell
+   brew install go
+4. Verify the installation by typing 
+   ```shell
+   go version 
 
 To install and run File Manager, follow these steps:
 
